@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Vanna Moore</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+    <main>
+      <section class="contact">
+        <h1>Contact Me</h1>
+        <p>Have a question or want to work together? Send me a message:</p>
+
+        <form action="#" method="POST" class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <p>Or reach me directly:</p>
+        <p>
+          Email: <a href="mailto:vannamoore@gmail.com">vannamoore@gmail.com</a>
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/VannaMoore" target="_blank"
+            >github.com/VannaMoore</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/vannamoore" target="_blank"
+            >linkedin.com/in/vannamoore</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+<!-- 
+Handle sorm submissions without setting up a backend server:
+Form Spree
+Netlify Forms
+EmailJs
+
+Or set up a backend server using Node.js and Express to handle form submissions.
+You can use a service like Nodemailer to send emails from your server.
+-->
